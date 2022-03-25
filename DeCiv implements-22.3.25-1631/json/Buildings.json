@@ -1,0 +1,53 @@
+[
+    {
+		"name": "The Old Underground",
+		"isNationalWonder": true,
+		"uniqueTo": "The Confederacy",
+		"cost": 1,
+		"cityHealth": 10,
+		"production":1,
+		"food":1,
+		"culture":1,
+		"uniques": [
+			"Can only be built [in capital]",
+			"Provides [2] [Weapons]",
+			"Provides [2] [Fungus]",
+			"[1] free [Scout] unit appears",
+			"Gain a free [Food Store] [in this city]"
+		],
+		"quote": "In my end is my beginning... - Thomas Stern Eliot"
+	},
+    {
+        "name":"Underground Town",
+        "uniqueTo": "The Confederacy",
+        "replaces": "Food Store",
+        "cost": 20,
+        "cityHealth": 10,
+		"production":1,
+		"food":2,
+        "uniques":[
+            "[20]% Food is carried over after population increases [in this city]",
+            "[+1 Food] [in this city] <with [Salt]>"
+        ]
+    },
+    {
+		"name": "Irrigation System",
+		"cost": 320,
+		"hurryCostModifier": 25,
+		"maintenance":2,
+		"uniques": [
+			"Must be next to [Fresh water] tiles",
+			"[+ 1 gold][+0.5 food] from [Farm] tiles [in this city]"
+		],
+		"requiredTech": "Botany"
+	},
+    {
+		"name": "Arden Metro",
+		"uniqueTo": "Arden Club",
+		"cost": 1,
+		"culture": 2,
+		"gold": 2,
+		"food": 2,
+		"uniques": ["Provides [1][Fungus]", "Gain a free [Food Store] [in this city]"]
+	}
+]
